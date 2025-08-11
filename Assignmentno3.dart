@@ -7,7 +7,7 @@ Use a for loop to print the table in the format:
 
 
 
-import 'dart:developer';
+
 
 void main(){
 for(int i=1; i<=10; i++){
@@ -83,6 +83,32 @@ for( int k=0; k<marks.length;k++){
     );
   }
 }
+/*Task 5: Number Pattern
+Use nested for loops to print the following pattern:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5 */
+
+for(int i=1; i<=5; i++){
+  for(int j=1; j<=i; j++){
+    print("$j");
+  }
+}
+/*Task 7: Understanding continue
+1. Write a program that prints all numbers from 1 to 10, except the number 5.
+2. Use a for loop and the continue keyword. */
+for (int i=1; i<=10; i++){
+  if (i==5){
+    continue;
+  }
+  else{
+    print (i);
+  }
+}
+
+
 
 
 
